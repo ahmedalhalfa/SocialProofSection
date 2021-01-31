@@ -1,0 +1,216 @@
+@import 'config';
+
+body
+{
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    font-family: $mainFont;
+    font-size: $default-size;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg);
+    background-position: 0% -1%, 100% 100%;
+    background-repeat: no-repeat, no-repeat;
+}
+
+
+
+main
+{
+    margin: 0 auto;
+    width: 77%;
+    height: 80vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    // overflow: auto;
+
+    .welcome-section
+    {
+        display: flex;
+        justify-content: space-between;
+
+        .main-paragraph
+        {
+            width:44%;
+
+            h1{
+                font-weight: 700;
+                color:$primary-color-magneta;
+                font-size:44px;
+                line-height: 1;
+            
+            }
+        
+            P {
+                font-size: 14.2px;
+                margin-top: 1rem;
+                line-height: 1.75;
+                color: rgba(52, 0, 41, 0.400);
+                font-weight: 500;
+            }
+        }
+
+        .ratings-list
+        {
+            position: relative;
+            left:4.4rem;
+            margin-top: 1rem;
+            margin-right: 1rem;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            
+            .rating-item
+            {
+                width: 80%;
+                height: 30%;
+                position: relative;
+                display: flex;
+                justify-content: space-between; 
+                background-color: $primary-color-pink;
+                margin-bottom: 1rem;
+                padding: 1rem;
+                border-radius: .5rem;
+                color:$primary-color-magneta;
+                
+                .rating-comment 
+                {
+                    font-weight: 700;
+                    font-size: 13px;
+                    position: relative;
+                    top: .1rem;
+                }
+
+                .stars
+                {
+                    width: 30%;
+                    display: flex;
+                    align-items: flex-start;
+                    margin-left: 1rem;
+                    justify-content: space-evenly;
+                    
+                    .star
+                    {
+                        max-width: 14%;
+                    }
+                }
+
+            }
+
+            .rating-item1
+            {
+
+                .rating-comment 
+                {
+                    right: 4rem;
+                }
+            }
+
+            .rating-item2
+            {
+                left: 3.0rem;
+                
+                .rating-comment 
+                {
+                    right: 2rem;
+
+                }
+            }
+
+            .rating-item3
+            {
+                left: 6rem;
+
+                .rating-comment 
+                {
+                    right: 3.7rem;
+                }
+            }
+        }
+
+    }
+
+    .endorsements-section
+    {
+        position: relative;
+        bottom: 1.5rem;
+        .endorsements-list
+        {
+            display: flex;
+            justify-content: space-between;
+
+            .endorsement-item
+            {
+                color:$white;
+                background-color: $primary-color-magneta;
+                border-radius: .5rem;
+                width: 31.5%;
+                height:220px;
+                padding:2rem;
+
+                .user
+                {
+                    margin-bottom: 1.5rem;
+                }
+                .user-image 
+                {
+                    border-radius: 100%;
+                    max-width: 14%;
+                }
+                .user-info
+                {
+                    position: relative;
+                    bottom: .4rem;
+                    display: inline-block;
+                    margin-left: 1.3rem;
+                    font-size: 12px;
+                    font-weight: 700;
+                    line-height: 1.4;
+                    .buyer
+                    {
+                        color:  hsl(300, 42%, 48%);
+                        font-weight: 400;
+                    }
+                }
+
+                .endorsement-comment
+                {
+                    line-height: 1.7;
+                    font-weight: 500;
+                    font-size: 12px;
+                    opacity: 80%;
+                }
+
+                // @media (max-width:375px)
+                // {
+                //     background-color: yellow;
+                // }
+                
+            }
+
+            .endorsement-item2
+            {
+                position: relative;
+                top: 1rem;
+            }
+            .endorsement-item3
+            {
+                position: relative;
+                top: 2rem;
+            }
+            // @media (max-width:375px)
+            // {
+            //     flex-direction: column;
+            // }
+
+        }
+
+    }
+}
+@import 'responsive';

@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  font-family: "Spartan";
+  font-size: 15px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg);
+  background-position: 0% -1%, 100% 100%;
+  background-repeat: no-repeat, no-repeat;
+}
+
+main {
+  margin: 0 auto;
+  width: 77%;
+  height: 80vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .welcome-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .welcome-section .main-paragraph {
+  width: 44%;
+}
+
+main .welcome-section .main-paragraph h1 {
+  font-weight: 700;
+  color: #502050;
+  font-size: 44px;
+  line-height: 1;
+}
+
+main .welcome-section .main-paragraph P {
+  font-size: 14.2px;
+  margin-top: 1rem;
+  line-height: 1.75;
+  color: rgba(52, 0, 41, 0.4);
+  font-weight: 500;
+}
+
+main .welcome-section .ratings-list {
+  position: relative;
+  left: 4.4rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .welcome-section .ratings-list .rating-item {
+  width: 80%;
+  height: 30%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #f7f2f7;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: .5rem;
+  color: #502050;
+}
+
+main .welcome-section .ratings-list .rating-item .rating-comment {
+  font-weight: 700;
+  font-size: 13px;
+  position: relative;
+  top: .1rem;
+}
+
+main .welcome-section .ratings-list .rating-item .stars {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-left: 1rem;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+main .welcome-section .ratings-list .rating-item .stars .star {
+  max-width: 14%;
+}
+
+main .welcome-section .ratings-list .rating-item1 .rating-comment {
+  right: 4rem;
+}
+
+main .welcome-section .ratings-list .rating-item2 {
+  left: 3.0rem;
+}
+
+main .welcome-section .ratings-list .rating-item2 .rating-comment {
+  right: 2rem;
+}
+
+main .welcome-section .ratings-list .rating-item3 {
+  left: 6rem;
+}
+
+main .welcome-section .ratings-list .rating-item3 .rating-comment {
+  right: 3.7rem;
+}
+
+main .endorsements-section {
+  position: relative;
+  bottom: 1.5rem;
+}
+
+main .endorsements-section .endorsements-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .endorsements-section .endorsements-list .endorsement-item {
+  color: white;
+  background-color: #502050;
+  border-radius: .5rem;
+  width: 31.5%;
+  height: 220px;
+  padding: 2rem;
+}
+
+main .endorsements-section .endorsements-list .endorsement-item .user {
+  margin-bottom: 1.5rem;
+}
+
+main .endorsements-section .endorsements-list .endorsement-item .user-image {
+  border-radius: 100%;
+  max-width: 14%;
+}
+
+main .endorsements-section .endorsements-list .endorsement-item .user-info {
+  position: relative;
+  bottom: .4rem;
+  display: inline-block;
+  margin-left: 1.3rem;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+main .endorsements-section .endorsements-list .endorsement-item .user-info .buyer {
+  color: #ae47ae;
+  font-weight: 400;
+}
+
+main .endorsements-section .endorsements-list .endorsement-item .endorsement-comment {
+  line-height: 1.7;
+  font-weight: 500;
+  font-size: 12px;
+  opacity: 80%;
+}
+
+main .endorsements-section .endorsements-list .endorsement-item2 {
+  position: relative;
+  top: 1rem;
+}
+
+main .endorsements-section .endorsements-list .endorsement-item3 {
+  position: relative;
+  top: 2rem;
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  body {
+    background-image: url(/images/bg-pattern-top-mobile.svg), url(/images/bg-pattern-bottom-mobile.svg);
+    background-position: 0% 0%, 100% 100%;
+    background-repeat: no-repeat, no-repeat;
+    overflow: scroll;
+  }
+  main {
+    margin: 8rem auto -3rem auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 85%;
+    height: 100%;
+  }
+  main .welcome-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .welcome-section .main-paragraph {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .welcome-section .main-paragraph h1 {
+    width: 75%;
+    margin: 0 auto;
+    font-size: 28px;
+  }
+  main .welcome-section .main-paragraph h1 .centered1 {
+    margin-left: 7px;
+  }
+  main .welcome-section .main-paragraph h1 .centered2 {
+    margin-left: 38px;
+  }
+  main .welcome-section .main-paragraph p {
+    font-size: 13.5px;
+  }
+  main .welcome-section .main-paragraph p br {
+    display: none;
+  }
+  main .welcome-section .main-paragraph p .centered3 {
+    margin-left: 3px;
+  }
+  main .welcome-section .main-paragraph p .centered4 {
+    position: relative;
+    left: 9px;
+  }
+  main .welcome-section .main-paragraph p .centered5 {
+    margin-left: 10px;
+    position: relative;
+    left: 107px;
+  }
+  main .welcome-section .ratings-list {
+    position: static;
+    margin: 3rem 0 0 0;
+    width: 100%;
+    height: 270px;
+  }
+  main .welcome-section .ratings-list .rating-item {
+    width: 100%;
+    position: static;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0;
+  }
+  main .welcome-section .ratings-list .rating-item .rating-comment {
+    position: static;
+    margin: auto auto;
+  }
+  main .welcome-section .ratings-list .rating-item .stars {
+    width: 40%;
+    margin: 15px auto 5px  auto;
+  }
+  main .welcome-section .ratings-list .rating-item .stars .star {
+    max-width: 13%;
+  }
+  main .endorsements-section {
+    margin-top: 1rem;
+    position: static;
+  }
+  main .endorsements-section .endorsements-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  main .endorsements-section .endorsements-list .endorsement-item {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  main .endorsements-section .endorsements-list .endorsement-item .user-info {
+    position: static;
+  }
+  main .endorsements-section .endorsements-list .endorsement-item .endorsement-comment br {
+    display: none;
+  }
+  main .endorsements-section .endorsements-list .endorsement-item2 {
+    position: static;
+  }
+  main .endorsements-section .endorsements-list .endorsement-item3 {
+    position: static;
+  }
+}
+/*# sourceMappingURL=main.css.map */
