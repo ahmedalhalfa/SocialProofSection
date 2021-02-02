@@ -1,4 +1,4 @@
-@media screen and (min-width:375px) and (max-width:768px)
+@media screen and (max-width:1270px) // was min-width: 375px;
 {
     body 
     {
@@ -30,42 +30,45 @@
                 h1
                 {
                     // text-align: center;
+                    height: 46%;
                     width: 75%;
                     margin:0 auto;
+                    text-align: center;
                     font-size: 28px;
                     
-                    .centered1
-                    {
-                        margin-left: 7px;
-                    }
-                    .centered2
-                    {
-                        margin-left: 38px;
-                    }
+                    // .centered1
+                    // {
+                    //     margin-left: 7px;
+                    // }
+                    // .centered2
+                    // {
+                    //     margin-left: 38px;
+                    // }
                 }
 
                 p
                 {
                     font-size: 13.5px;
+                    text-align: center;
                     br
                     {
                         display: none;
                     }
-                    .centered3
-                    {
-                        margin-left: 3px;
-                    }
-                    .centered4
-                    {
-                        position: relative;
-                        left:9px;
-                    }
-                    .centered5
-                    {
-                        margin-left: 10px;
-                        position: relative;
-                        left:107px;
-                    }
+                    // .centered3
+                    // {
+                    //     margin-left: 3px;
+                    // }
+                    // .centered4
+                    // {
+                    //     position: relative;
+                    //     left:9px;
+                    // }
+                    // .centered5
+                    // {
+                    //     margin-left: 10px;
+                    //     position: relative;
+                    //     left:107px;
+                    // }
                 }
                 
             }

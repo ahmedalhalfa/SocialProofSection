@@ -57,9 +57,9 @@ main
         .ratings-list
         {
             position: relative;
-            left:4.4rem;
+            // left:0rem; was 4.4 before.
             margin-top: 1rem;
-            margin-right: 1rem;
+            // margin-right: 1rem;
             width: 50%;
             display: flex;
             flex-direction: column;
