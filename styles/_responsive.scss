@@ -16,35 +16,22 @@
         height: 100%;
         .welcome-section
         {
-            // height: 100vh;
             margin-bottom: 1rem;
             flex-direction: column;
             align-items: center;
-            // justify-content: space-between;
             .main-paragraph
             {
                 width: 100%;
-                // height: 50%;
                 display: flex;
                 flex-direction: column;
 
                 h1
                 {
-                    // text-align: center;
                     height: 46%;
                     width: 75%;
                     margin:0 auto;
                     text-align: center;
-                    font-size: 28px;
-                    
-                    // .centered1
-                    // {
-                    //     margin-left: 7px;
-                    // }
-                    // .centered2
-                    // {
-                    //     margin-left: 38px;
-                    // }
+                    font-size: 28px;                    
                 }
 
                 p
@@ -55,21 +42,6 @@
                     {
                         display: none;
                     }
-                    // .centered3
-                    // {
-                    //     margin-left: 3px;
-                    // }
-                    // .centered4
-                    // {
-                    //     position: relative;
-                    //     left:9px;
-                    // }
-                    // .centered5
-                    // {
-                    //     margin-left: 10px;
-                    //     position: relative;
-                    //     left:107px;
-                    // }
                 }
                 
             }
@@ -83,7 +55,6 @@
                 .rating-item
                 {
                     width: 100%;
-                    // height: 33%;
                     position: static;
                     flex-direction: column;
                     padding:0;

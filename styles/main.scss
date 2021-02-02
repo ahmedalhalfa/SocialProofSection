@@ -26,7 +26,6 @@ main
     display: grid;
     grid-template-rows: 1fr 1fr;
     align-items: center;
-    // overflow: auto;
 
     .welcome-section
     {
@@ -57,9 +56,7 @@ main
         .ratings-list
         {
             position: relative;
-            // left:0rem; was 4.4 before.
             margin-top: 1rem;
-            // margin-right: 1rem;
             width: 50%;
             display: flex;
             flex-direction: column;
@@ -185,13 +182,7 @@ main
                     font-weight: 500;
                     font-size: 12px;
                     opacity: 80%;
-                }
-
-                // @media (max-width:375px)
-                // {
-                //     background-color: yellow;
-                // }
-                
+                }                
             }
 
             .endorsement-item2
@@ -204,11 +195,6 @@ main
                 position: relative;
                 top: 2rem;
             }
-            // @media (max-width:375px)
-            // {
-            //     flex-direction: column;
-            // }
-
         }
 
     }
