@@ -147,3 +147,24 @@
     }
 
 }
+
+@media screen and (max-width:417px)
+{
+    main
+    {
+        .welcome-section
+        {
+            .main-paragraph
+            {
+                p
+                {
+                    .mini
+                    {
+                        display: inline;
+                    }
+                }
+
+            }   
+        }
+    }
+}

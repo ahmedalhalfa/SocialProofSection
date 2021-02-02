@@ -322,4 +322,10 @@ main .endorsements-section .endorsements-list .endorsement-item3 {
     position: static;
   }
 }
+
+@media screen and (max-width: 417px) {
+  main .welcome-section .main-paragraph p .mini {
+    display: inline;
+  }
+}
 /*# sourceMappingURL=main.css.map */
