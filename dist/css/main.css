@@ -230,6 +230,7 @@ main .endorsements-section .endorsements-list .endorsement-item3 {
     height: 100%;
   }
   main .welcome-section {
+    margin-bottom: 1rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
