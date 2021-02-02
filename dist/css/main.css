@@ -22,7 +22,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg);
+  background-image: url(/dist/images/bg-pattern-top-desktop.svg), url(/dist/images/bg-pattern-bottom-desktop.svg);
   background-position: 0% -1%, 100% 100%;
   background-repeat: no-repeat, no-repeat;
 }
@@ -212,8 +212,8 @@ main .endorsements-section .endorsements-list .endorsement-item3 {
 
 @media screen and (max-width: 1270px) {
   body {
-    background-image: url(/images/bg-pattern-top-mobile.svg), url(/images/bg-pattern-bottom-mobile.svg);
-    background-position: 0% 0%, 100% 100%;
+    background-image: url(/dist/images/bg-pattern-top-mobile.svg);
+    background-position: 0% 0%;
     background-repeat: no-repeat, no-repeat;
     overflow: scroll;
   }
